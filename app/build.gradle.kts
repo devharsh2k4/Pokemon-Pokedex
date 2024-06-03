@@ -1,7 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
-    id ("kotlin-kapt")
+    kotlin("kapt")
     id ("dagger.hilt.android.plugin")
 }
 
@@ -96,9 +96,11 @@ dependencies {
     implementation ("io.coil-kt:coil-compose:2.4.0")
     implementation ("com.google.accompanist:accompanist-coil:0.7.0")
 
-    //Dagger - Hilt
+    // Dagger - Hilt
     implementation("com.google.dagger:hilt-android:2.44")
     kapt("com.google.dagger:hilt-android-compiler:2.44")
+    kapt ("androidx.hilt:hilt-compiler:1.2.0")
+    implementation ("androidx.hilt:hilt-navigation-compose:1.2.0")
 
 
     implementation("androidx.palette:palette-ktx:1.0.0")

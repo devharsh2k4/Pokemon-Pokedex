@@ -21,7 +21,6 @@ fun SetupNavGraph(navController: NavHostController) {
         startDestination = Screen.PokemonList.route
     ) {
 
-
         composable(route = Screen.PokemonList.route) {
             PokemonListScreen(navController = navController)
         }
