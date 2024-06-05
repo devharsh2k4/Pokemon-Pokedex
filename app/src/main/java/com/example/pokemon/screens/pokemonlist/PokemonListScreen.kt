@@ -1,4 +1,4 @@
-package com.example.pokemon.Screens.pokemonlist
+package com.example.pokemon.screens.pokemonlist
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
@@ -15,7 +15,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
-import androidx.navigation.compose.rememberNavController
 import com.example.pokemon.R
 
 @Composable
