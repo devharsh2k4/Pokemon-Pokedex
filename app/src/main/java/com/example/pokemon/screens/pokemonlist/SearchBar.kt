@@ -1,4 +1,4 @@
-package com.example.pokemon.Screens.pokemonlist
+package com.example.pokemon.screens.pokemonlist
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
